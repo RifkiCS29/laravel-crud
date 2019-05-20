@@ -48,7 +48,7 @@ The Laravel framework is open-source software licensed under the [MIT license](h
 4. Memiliki koneksi internet (untuk proses installasi).
 
 Langkah-Langkah
-1. Download Source Code dari repo Github laravel-penduduk dalam bentuk Zip.
+1. Download Source Code dari repo Github laravel-crud dalam bentuk Zip.
 2. Extract file zip (source code) ke dalam direktori htdocs pada XAMPP, misal htdocs/laravel-crud.
 3. Melalui terminal, cd ke direktori laravel-crud.
 4. (Sesuai petunjuk installasi) Pada terminal, berikan perintah <b>composer install</b>. Ini yang perlu koneksi internet.
@@ -58,12 +58,12 @@ Langkah-Langkah
 8. Duplikat file .env.example, lalu rename menjadi .env.
 9. Kembali ke terminal, php artisan key:generate.
 10. Setting koneksi database di file .env (DB_DATABASE, DB_USERNAME, DB_PASSWORD).
-    DB_CONNECTION=mysql
-    DB_HOST=localhost
-    DB_PORT=3306
-    DB_DATABASE=crud
-    DB_USERNAME=root
-    DB_PASSWORD=
+    <br>DB_CONNECTION=mysql
+    <br>DB_HOST=localhost
+    <br>DB_PORT=3306
+    <br>DB_DATABASE=crud
+    <br>DB_USERNAME=root
+    <br>DB_PASSWORD=
 11. Jika hanya ingin membuat tabel, jalankan perintah <b>php artisan migrate</b>. Cek di phpmyadmin, seharusnya tabel sudah muncul.
 12. Setelah selesai, Jalankan perintah <b>php artisan serve</b> maka dapat diakses dengan http://localhost:8000/
 
