@@ -2057,7 +2057,11 @@
         },
         {
             "name": "symfony/http-foundation",
+<<<<<<< HEAD
             "version": "v4.3.6",
+=======
+            "version": "v4.2.12",
+>>>>>>> d2aad99fe5a00656078cb504a149a50450a175c3
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
@@ -2128,10 +2132,16 @@
                 "php": "^7.1.3",
                 "psr/log": "~1.0",
                 "symfony/debug": "~3.4|~4.0",
+<<<<<<< HEAD
                 "symfony/event-dispatcher": "^4.3",
                 "symfony/http-foundation": "^4.1.1",
                 "symfony/polyfill-ctype": "~1.8",
                 "symfony/polyfill-php73": "^1.9"
+=======
+                "symfony/event-dispatcher": "~4.1",
+                "symfony/http-foundation": "^4.2.12",
+                "symfony/polyfill-ctype": "~1.8"
+>>>>>>> d2aad99fe5a00656078cb504a149a50450a175c3
             },
             "conflict": {
                 "symfony/browser-kit": "<4.3",
